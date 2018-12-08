@@ -37,10 +37,10 @@ $(document).ready(function () {
 		$(this).addClass("active");
 	});
 
-	$(".popup").magnificPopup({
+	$(window).$(".popup").magnificPopup({
 		type: "image"
 	});
-	$(".popup_content").magnificPopup({
+	$(window).$(".popup_content").magnificPopup({
 		type: "inline",
 		midClick: true
 	});
