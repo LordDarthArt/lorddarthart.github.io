@@ -37,11 +37,9 @@ $(document).ready(function () {
 		$(this).addClass("active");
 	});
 
-	$(".popup").magnificPopup({
-		type: "image"
-	});
+	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({
-		type: "inline",
+		type:"inline",
 		midClick: true
 	});
 
@@ -64,7 +62,7 @@ $(document).ready(function () {
 	});
 
 	$(".portfolio_item").each(function (i) {
-		$(this).find("$a.seework").attr("href", "#work_" + i);
+		$(this).find("a.seework").attr("href", "#work_" + i);
 		$(this).find(".podrt_descr").attr("id", "work_" + i);
 	});
 
