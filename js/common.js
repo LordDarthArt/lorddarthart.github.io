@@ -64,7 +64,7 @@ $(document).ready(function () {
 	});
 
 	$(".portfolio_item").each(function (i) {
-		$(this).find("a.seework").attr("href", "#work_" + i);
+		$(this).find("$a.seework").attr("href", "#work_" + i);
 		$(this).find(".podrt_descr").attr("id", "work_" + i);
 	});
 
