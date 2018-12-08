@@ -14,6 +14,9 @@ body {
 	-webkit-font-smoothing: antialised;
 	overflow-x: hidden;
 }
+hr {
+	color: #ffffff;
+}
 .top_wrapper {
 	display: table;
 	width: 100%;
