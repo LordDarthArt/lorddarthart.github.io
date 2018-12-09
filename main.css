@@ -77,7 +77,6 @@ footer {
 header .top_wrapper .top_text .title {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"sans-serif;
 	font-size: 16px;
-	text-shadow: -3px -3px 0 #000,  3px -3px 0 #000,  -3px 3px 0 #000,  3px 3px 0 #000;
 }
 .clr {
 	float: none;
@@ -107,6 +106,7 @@ section {
 	padding: 70px 0 90px;
 }
 section h2 {
+	color: #ffffff;
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -589,7 +589,6 @@ svg path {
 	background-attachment: fixed;
 	background-size: cover;
 	color: #072004;
-	min-height: 650px;
 }
 #goals h2 {
 	color:#ffffff;
@@ -622,7 +621,7 @@ svg path {
 	color: #fff;
 }
 #goals.bg_dark .contact_box p {
-	color: #000;
+	color: #ffffff;
 }
 #goals.bg_dark .contact_box a {
 	color: #072004;
@@ -631,7 +630,6 @@ svg path {
 	color:#ffffff;
 }
 a#buttonUp {
-	background: url(images/arrow.png);
 	position: fixed;
 	bottom: 85px;
 	right: 85px;
