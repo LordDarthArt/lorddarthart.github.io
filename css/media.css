@@ -1,11 +1,22 @@
 
 @media only screen and (max-width : 1200px) {
-	.sitetitle{
-		top: 120px;
+	header .top_wrapper .top_descr .top_centered {
+		margin-top: 120px;
+		display: block;
+	}
+	#portfolio {
+		margin-top: 80px;
 	}
 }
 
 @media only screen and (max-width : 992px) {
+	header .top_wrapper .top_descr .top_centered {
+		margin-top: 120px;
+		display: block;
+	}
+	#portfolio {
+		margin-top: 200px;
+	}
 	.personal_last_block {
 		margin-top: 35px;
 	}
@@ -24,6 +35,13 @@
 	.sitetitle{
 		width: 250px;
 		margin-left: -125px;
+	}
+	#portfolio {
+		margin-top: 280px;
+	}
+	header .top_wrapper .top_descr .top_centered {
+		margin-top: 120px;
+		display: block;
 	}
 	#graphics3d{
 		min-height: 3020px;
@@ -52,6 +70,9 @@
 	}
 	.sitetitle{
 		top: 120px;
+	}
+	#portfolio {
+		margin-top: 60px;
 	}
 	header .top_wrapper .top_descr .top_centered {
 		margin-top: 200px;
