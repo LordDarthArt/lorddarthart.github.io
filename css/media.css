@@ -1,6 +1,8 @@
 
 @media only screen and (max-width : 1200px) {
-
+	.sitetitle{
+		top: 120px;
+	}
 }
 
 @media only screen and (max-width : 992px) {
