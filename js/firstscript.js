@@ -2,7 +2,7 @@ window._wpemojiSettings = {
 	"baseUrl": "http:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
 	"ext": ".png",
 	"source": {
-		"concatemoji": "js\/wp-emoji-release.min.js?ver=4.3.17"
+		"concatemoji": "js\/wp-emojis-release.min.js?ver=4.3.17"
 	}
 };
 ! function (a, b, c) {
