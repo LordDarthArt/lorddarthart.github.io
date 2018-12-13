@@ -485,13 +485,13 @@ svg path {
 	display: inline-block;
 }
 .podrt_descr {
-	background-color: #fff;
+	background-color: #222;
 	max-width: 500px;
 	margin: auto;
 }
 .podrt_descr p,  .podrt_descr h3 {
 	padding: 20px;
-	padding-bottom: 0;
+	padding-bottom: 10px;
 }
 .podrt_descr h3 {
 	margin-bottom: 0;
@@ -500,8 +500,16 @@ svg path {
 	font-weight: 400;
 	margin-top: 20px;
 	padding-top: 25px;
+	color: white;
+}
+.podrt_descr p a {
+	color: orange;
+}
+.podrt_descr ul li {
+	color: white;
 }
 .podrt_descr p {
+	color: white;
 	margin-top: 0;
 }
 .podrt_descr img {
