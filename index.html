@@ -148,31 +148,31 @@ img.wp-smiley, img.emoji {
   AOS.init();
 </script>
 <header class="main_head main_color_bg" data-image-src="images/background.png" data-z-index="1"> <a id="buttonUp" href="#top" style="display: none;"> <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
-    <div class="container" style="height:900px;">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="logo_container"><img src="images/mark.png" alt="logotype"></div>
-          <div class="sitetitle" style="color:#ffffff">Tarasov Artem Maksimovich</div>
-        </div>
+  <div class="container" style="height:900px;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="logo_container"><img src="images/mark.png" alt="logotype"></div>
+        <div class="sitetitle" style="color:#ffffff">Tarasov Artem Maksimovich</div>
       </div>
-      <div class="top_wrapper">
-        <div class="top_descr">
-          <div class="top_centered">
-            <div class="top_text">
-              <h1>Android Developer</h1>
-              <p class="title">- Experience with Java: 1,6 years</p>
-              <p class="title">- Experience with using VCS (Git)</p>
-              <p class="title">- Experience in working with SQLite, SQL (JDBC)</p>
-              <p class="title">- Experience with developing applications for Android OS (Java, Kotlin)</p>
-              <p class="title">- Experience with using REST API to recieve server's response by parsing JSON</p>
-              <p class="title">- Experience in working with Spring Boot, Spring MVC, Hibernate, etc.</p>
-              <p class="title">- Experience with using Firebase: Realtime Database, Cloud Firestore</p>
-              <p class="title">- Experience with using Google Cloud Messaging</p>
-            </div>
+    </div>
+    <div class="top_wrapper">
+      <div class="top_descr">
+        <div class="top_centered">
+          <div class="top_text">
+            <h1>Android Developer</h1>
+            <p class="title">- Experience with Java: 1,6 years</p>
+            <p class="title">- Experience with using VCS (Git)</p>
+            <p class="title">- Experience in working with SQLite, SQL (JDBC)</p>
+            <p class="title">- Experience with developing applications for Android OS (Java, Kotlin)</p>
+            <p class="title">- Experience with using REST API to recieve server's response by parsing JSON</p>
+            <p class="title">- Experience in working with Spring Boot, Spring MVC, Hibernate, etc.</p>
+            <p class="title">- Experience with using Firebase: Realtime Database, Cloud Firestore</p>
+            <p class="title">- Experience with using Google Cloud Messaging</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </header>
 <section id="portfolio" class="s_portfolio bg_dark">
   <div data-aos="fade-up" data-aos-easing="linear">
@@ -186,13 +186,34 @@ img.wp-smiley, img.emoji {
       <div class="row">
         <div id="portfolio_grid">
           <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
+            <div class="port_item_container"><img width="700" height="545" src="images/examples/pushovertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
+              <div class="port_item_cont">
+                <div class="yearPort"> 2018 </div>
+                <h3>PushOverTestApp</h3>
+                <p>Application for Android OS, which sends notifications to defined user's devices</p>
+                <a href="#work_8" class="popup_content seework">Check out</a> </div>
+            </div>
+            <div class="hidden">
+              <div class="podrt_descr" id="work_8" style="">
+                <div class="modal-box-content">
+                  <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                  <h3>PushOverTestApp</h3>
+                  <center>
+                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/PushOverTestApp" target="_blank">GitHub</a> </p>
+                  </center>
+                  <img width="700" height="545" src="images/examples/pushovertestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
+                  <p> PushOverTestApp - Application for Android OS, which uses PushOver API to send notifications to defined user's devices. If notification's text is a link, it will be added as a notification link. You can type your own notification's title and text, define target user's key, define target user's device, you can create a pending notification, you can even scan QR code and send result by notification. Target user needs the PushOver application to be installed on the device. API 21+ (Android 5.0+)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
             <div class="port_item_container"><img width="700" height="545" src="images/examples/yandexweathertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
               <div class="port_item_cont">
                 <div class="yearPort"> 2018 </div>
                 <h3>YandexWeatherTestApp</h3>
                 <p>Application for Android OS, which is using Yandex Weather API to recieve forecasts from Yandex Servers</p>
-                <a href="#work_7" class="popup_content seework">Check out</a>
-			  </div>
+                <a href="#work_7" class="popup_content seework">Check out</a> </div>
             </div>
             <div class="hidden">
               <div class="podrt_descr" id="work_7" style="">
@@ -203,11 +224,7 @@ img.wp-smiley, img.emoji {
                     <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/YandexWeatherTestApp" target="_blank">GitHub</a> </p>
                   </center>
                   <img width="700" height="545" src="images/examples/yandexweathertestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-				  <p> YandexWeatherTestApp - Application for Android OS, which uses Yandex Weather API to fetch forecasts data from Yandex Weather. To use this example program, you need a Yandex API Key. In IT security purposes Yandex API Key is stored in cloud NoSQL DB Cloud Firestore (by Google), separately for each authorized user. Authorization is working by Google account. For first-time authorization, you need to specify your Yandex API Key, otherwise software won't work. In UI, there's one (main) activity, which loads different fragments. </p>
-                  <center>
-                    <p><a href="https://lorddarthart.tk/downloads/YandexWeatherTestApp.apk" target="_blank">Download</a> </p>
-                  </center>
-				  <br>
+                  <p> YandexWeatherTestApp - Application for Android OS, which uses Yandex Weather API to fetch forecasts data from Yandex Weather. To use this example program, you need a Yandex API Key. In IT security purposes Yandex API Key is stored in cloud NoSQL DB Cloud Firestore (by Google), separately for each authorized user. Authorization is working by Google account. For first-time authorization, you need to specify your Yandex API Key, otherwise software won't work. In UI, there's one (main) activity, which loads different fragments. </p>
                 </div>
               </div>
             </div>
@@ -491,7 +508,7 @@ img.wp-smiley, img.emoji {
 </footer>
 <div class="hidden"></div>
 <script src="js/jQuery-2.1.3.min.js"></script> 
-<script src="js/parallax.min.js"></script>
+<script src="js/parallax.min.js"></script> 
 <script src="js/common.js"></script> 
 <script src="js/jQuery.magnific-popup.min.js"></script> 
 <script src="js/mixitup.min.js"></script> 
