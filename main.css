@@ -173,7 +173,17 @@ section .personal_header {
 	z-index: 10;
 	position: absolute;
 }
+.logo_container_kotlin {
+	float: right;
+	z-index: 10;
+	position: absolute;
+	margin-left: 88%;
+}
 .logo_container img {
+	width: 104px;
+	height: auto;
+}
+.logo_container_kotlin img {
 	width: 104px;
 	height: auto;
 }
