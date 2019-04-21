@@ -54,7 +54,7 @@
 
 .slider-container {
   position: relative;
-  height: 138px;
+  height: 172px;
   margin: 0;
   padding: 0;
   display: -webkit-flex; /* Safari */
@@ -122,7 +122,7 @@
   background-color: white;
   padding-top: -20px;
   border-radius: 3px;
-  margin: 20px 0px 20px 0px;
+/*  margin: 20px 0px 20px 0px;*/
 }
 
 .track a.prev,
@@ -178,15 +178,15 @@
 
 .track a.next {
   right: 0;
-  background-position: -64px 0;
+  background-position: -63px 0;
 }
 
 .track a.next:hover {
-  background-position: -64px -132px;
+  background-position: -63px -132px;
 }
 
 .track a.next:active {
-  background-position: -64px -198px;
+  background-position: -63px -198px;
 }
 .bullet-pagination {
   width: 100%;
