@@ -242,4 +242,4 @@ jQuery(document).ready(function() {
 
 	$("table.options tr:even").addClass('even');
 
-})(jQuery.noConflict());
+});
