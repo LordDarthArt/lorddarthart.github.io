@@ -1,701 +1,980 @@
 <!doctype html>
 <html>
-	<head>
-<style class="darkreader darkreader--fallback" media="screen"></style>
-<style class="darkreader darkreader--text" media="screen"></style>
-<style class="darkreader darkreader--invert" media="screen"></style>
-<style class="darkreader darkreader--inline" media="screen">
-[data-darkreader-inline-bgcolor] {
-	background-color: var(--darkreader-inline-bgcolor) !important;
-}
-[data-darkreader-inline-bgimage] {
-	background-image: var(--darkreader-inline-bgimage) !important;
-}
-[data-darkreader-inline-border] {
-	border-color: var(--darkreader-inline-border) !important;
-}
-[data-darkreader-inline-border-bottom] {
-	border-bottom-color: var(--darkreader-inline-border-bottom) !important;
-}
-[data-darkreader-inline-border-left] {
-	border-left-color: var(--darkreader-inline-border-left) !important;
-}
-[data-darkreader-inline-border-right] {
-	border-right-color: var(--darkreader-inline-border-right) !important;
-}
-[data-darkreader-inline-border-top] {
-	border-top-color: var(--darkreader-inline-border-top) !important;
-}
-[data-darkreader-inline-boxshadow] {
-	box-shadow: var(--darkreader-inline-boxshadow) !important;
-}
-[data-darkreader-inline-color] {
-	color: var(--darkreader-inline-color) !important;
-}
-[data-darkreader-inline-fill] {
-	fill: var(--darkreader-inline-fill) !important;
-}
-[data-darkreader-inline-stroke] {
-	stroke: var(--darkreader-inline-stroke) !important;
-}
-[data-darkreader-inline-outline] {
-	outline-color: var(--darkreader-inline-outline) !important;
-}
-</style>
-<style class="darkreader darkreader--user-agent" media="screen">
-html {
-	background-color: #1a1b21 !important;
-}
-html, body, input, textarea, select, button {
-	background-color: #1a1b21;
-}
-html, body, input, textarea, select, button {
-	border-color: #878582;
-	color: #ffffff;
-}
-a {
-	color: #5ce5ff;
-}
-table {
-	border-color: #757370;
-}
-::placeholder {
- color: #ffffff;
-}
-::selection {
-	background-color: #058cff;
-	color: #ffffff;
-}
-::-moz-selection {
- background-color: #058cff;
- color: #ffffff;
-}
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
- background-color: #818900 !important;
- color: #ffffff !important;
-}
-::-webkit-scrollbar {
- background-color: #212229;
- color: #ffffff;
-}
-::-webkit-scrollbar-thumb {
- background-color: #333a46;
-}
-::-webkit-scrollbar-thumb:hover {
- background-color: #3c4757;
-}
-::-webkit-scrollbar-thumb:active {
- background-color: #475972;
-}
-::-webkit-scrollbar-corner {
- background-color: #1a1b21;
-}
-</style>
-<meta charset="utf-8">
-<title>Tarasov Artem Maksimovich</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="images/mark.png">
-<link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="font-awesome/font-awesome.min.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="linea/styles.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="animate/animate.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="fonts/fonts.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" type="text/css" href="main.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="css/style.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="css/tomato.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link rel="stylesheet" href="css/media.css">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<style class="darkreader darkreader--sync" media="screen"></style>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="stylesheets/pygment_monokai.css" media="screen">
-<link rel="stylesheet" type="text/css" href="stylesheets/gh-buttons.css" media="screen">
-<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-<link rel="stylesheet" type="text/css" href="stylesheets/base_example.css" media="screen">
-		<script type="text/javascript" src="js/plugins/jquery.min.js"></script>
-<script type="text/javascript" src="js/firstscript.js"></script>
-<script src="js/wp-emojis-release.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/libs/bootstrap.dropdown.js"></script>
-<!--<script type="text/javascript" src="js/fancybox-1.3.4/jquery.fancybox-1.3.4.js"></script>-->
-<script type="text/javascript" src="js/libs/jquery-easing-1.3.0.js"></script>
-<script type="text/javascript" src="js/libs/modernizr.mediaqueries.transform3d.js"></script>
-<script type="text/javascript" src="js/libs/responsive-hub.js"></script>
-<script type="text/javascript" src="js/plugins/jquery.silver_track.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/jquery.silver_track_recipes.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.navigator.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.remote_content.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.responsive_hub_connector.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.css3_animation.js" charset="utf-8"></script>
-<script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.circular_navigator.js" charset="utf-8"></script>
-<!--<link rel="stylesheet" type="text/css" href="js/jquery.fancybox-1.3.4.css" media="screen">-->
-<!--[if IE 6]>
-	<script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
-	<script>
-		DD_belatedPNG.fix('.png_bg');
-	</script>
-<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Tarasov Artem Maksimovich</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/mark.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="linea/styles.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="animate/animate.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tomato.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_monokai.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/gh-buttons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="stylesheets/base_example.css" media="screen">
+    <script type="text/javascript" src="js/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="js/firstscript.js"></script>
+    <script src="js/wp-emojis-release.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/libs/bootstrap.dropdown.js"></script>
+<!--    <script type="text/javascript" src="js/jquery.fancybox.js"></script>-->
+    <script type="text/javascript" src="js/libs/jquery-easing-1.3.0.js"></script>
+    <script type="text/javascript" src="js/libs/modernizr.mediaqueries.transform3d.js"></script>
+    <script type="text/javascript" src="js/libs/responsive-hub.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/jquery.silver_track_recipes.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.bullet_navigator.js"
+            charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.remote_content.js"
+            charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.responsive_hub_connector.js"
+            charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.css3_animation.js"
+            charset="utf-8"></script>
+    <script type="text/javascript" src="js/plugins/plugins/jquery.silver_track.circular_navigator.js"
+            charset="utf-8"></script>
+<!--    <link rel="stylesheet" type="text/css" href="js/jquery.fancybox-1.3.4.css" media="screen">-->
+    <!--[if IE 6]>	<script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>-->
+    <!--	<script>-->
+    <!--		DD_belatedPNG.fix('.png_bg');-->
+    <!--	</script>-->
 </head>
 
-	<body>
+<body>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
-<header class="main_head main_color_bg" data-image-src="images/background.png" data-z-index="1"> <a id="buttonUp" href="#top" style="display: none;"> <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
-      <div class="container" style="height:900px;">
-    <div class="row">
-          <div class="col-md-12">
-        <div class="logo_container"><img src="images/mark.png" alt="logotype"></div>
-        <div class="sitetitle" style="color:#ffffff">Tarasov Artem Maksimovich</div>
-        <div class="logo_container_kotlin"><img src="images/markkotlin.png" alt="logotype"></div>
-      </div>
-        </div>
-    <div class="top_wrapper">
-          <div class="top_descr">
-        <div class="top_centered">
-              <div class="top_text">
-            <h1>Android Developer</h1>
-            <p class="title">- Experience with Java&Kotlin: 2 years</p>
-            <p class="title">- Experience with developing applications for Android OS (Java, Kotlin)</p>
-            <p class="title">- Experience with developing cross-platform apps using Flutter (Dart)</p>
-            <p class="title">- Experience with using VCS (Git)</p>
-            <p class="title">- Experience in working with SQLite, SQL (JDBC)</p>
-            <p class="title">- Experience in working with Retrofit2, Gson, OkHTTP3, Ion, iText</p>
-            <p class="title">- Experience with using REST API to recieve server's response by parsing JSON</p>
-            <p class="title">- Experience with using Firebase: Realtime Database, Cloud Firestore</p>
-            <p class="title">- Experience with using Google Cloud Messaging</p>
-          </div>
+<header class="main_head main_color_bg" data-image-src="images/background.png" data-z-index="1"><a id="buttonUp"
+                                                                                                   href="#top"
+                                                                                                   style="display: none;">
+    <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+    <div class="container" style="height:900px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo_container"><img src="images/mark.png" alt="logotype"></div>
+                <div class="sitetitle" style="color:#ffffff">Tarasov Artem Maksimovich</div>
+                <div class="logo_container_kotlin"><img src="images/markkotlin.png" alt="logotype"></div>
             </div>
-      </div>
         </div>
-  </div>
-    </header>
+        <div class="top_wrapper">
+            <div class="top_descr">
+                <div class="top_centered">
+                    <div class="top_text">
+                        <h1>Android Developer</h1>
+                        <p class="title">- Experience with Java&Kotlin: 2 years</p>
+                        <p class="title">- Experience with developing applications for Android OS (Java, Kotlin)</p>
+                        <p class="title">- Experience with developing cross-platform apps using Flutter (Dart)</p>
+                        <p class="title">- Experience with using VCS (Git)</p>
+                        <p class="title">- Experience in working with SQLite, SQL (JDBC)</p>
+                        <p class="title">- Experience in working with Retrofit2, Gson, OkHTTP3, Ion, iText</p>
+                        <p class="title">- Experience with using REST API to recieve server's response by parsing
+                            JSON</p>
+                        <p class="title">- Experience with using Firebase: Realtime Database, Cloud Firestore</p>
+                        <p class="title">- Experience with using Google Cloud Messaging</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 <section id="portfolio" class="s_portfolio bg_dark">
-      <div data-aos="fade-up" data-aos-easing="linear">
-    <h2 style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" data-darkreader-inline-color="">Portfolio</h2>
-    <div class="s_descr_wrap">
-          <div class="s_descr">Completed projects examples</div>
+    <div data-aos="fade-up" data-aos-easing="linear">
+        <h2 style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" data-darkreader-inline-color="">
+            Portfolio</h2>
+        <div class="s_descr_wrap">
+            <div class="s_descr">Completed projects examples</div>
         </div>
-  </div>
-      <script type="text/javascript" src="js/home_examples.js"></script>
-<!--<script type="text/javascript" src="js/web.js"></script>-->
-      <div class="section_content">
-    <div class="container">
-          <div class="row">
-        <div id="portfolio_grid">
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/videostreamplayertestapp/videostreamplayertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>VideoStreamPlayerTestApp</h3>
-                <p>Application for Android OS, which allows you to watch online videos by providing the direct link to video files</p>
-                <a href="#work_14" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_14" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>VideoStreamPlayerTestApp</h3>
-                      <center>
-                      <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/VideoStreamPlayerTestApp" target="_blank">GitHub</a> </p>
-                      <div class="track sample1">
-                    <div class="view-port" style="transform: translate3d(0px, 0px, 0px);">
-                          <div class="slider-container" style="transition: transform 800ms cubic-bezier(0.25, 0.1, 0.25, 1) 0ms; left: 0px; width: 2420px;">
-                        <div class="item" style="left: 0px;"><img src="images/examples/videostreamplayertestapp/videostreamplayertestapp1.png"></div>
-                        <div class="item" style="left: 242px;">
-							<a id="example2" href="#screenshot">
-								<img id="screenshot" src="images/examples/videostreamplayertestapp/videostreamplayertestapp2.png">
-							</a>
-						</div>
-                        <div class="item" style="left: 484px;"><img src="images/examples/videostreamplayertestapp/videostreamplayertestapp3.png"></div>
-                        <div class="item" style="left: 726px;"><img src="images/examples/videostreamplayertestapp/videostreamplayertestapp4.png"></div>
-                      </div>
+    </div>
+    <script type="text/javascript" src="js/home_examples.js"></script>
+<!--    <script type="text/javascript" src="js/web.js"></script>-->
+    <div class="section_content">
+        <div class="container">
+            <div class="row">
+                <div id="portfolio_grid">
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/videostreamplayertestapp/videostreamplayertestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>VideoStreamPlayerTestApp</h3>
+                                <p>Application for Android OS, which allows you to watch online videos by providing the
+                                    direct link to video files</p>
+                                <a href="#work_14" class="popup_content seework">Check out</a></div>
                         </div>
-                    <div class="pagination"> <a href="#" class="prev disabled"></a> <a href="#" class="next"></a> </div>
-                  </div>
-                      <p> VideoStreamPlayerTestApp - Application for Android OS, which allows you to watch online videos by providing the direct link to video files. API21+ (Android 5.0+). Development in progress. </p>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_14" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>VideoStreamPlayerTestApp</h3>
+                                    <center>
+                                        <p><strong>Kotlin: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/VideoStreamPlayerTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                        <p style="margin-top: -25px"><strong>Java: </strong><a style="color: orange"
+                                                                       href="https://github.com/LordDarthArt/VideoStreamPlayerTestApp/tree/javabranch"
+                                                                                               target="_blank">GitHub</a></p>
+                                        <div class="track sample1">
+                                            <div class="view-port" style="transform: translate3d(0px, 0px, 0px);">
+                                                <div class="slider-container"
+                                                     style="transition: transform 800ms cubic-bezier(0.25, 0.1, 0.25, 1) 0ms; left: 0px; width: 2420px;">
+                                                    <div class="item" style="left: 0px;">
+                                                        <a id="example1" target="_blank"
+                                                           href="images/examples/videostreamplayertestapp/videostreamplayertestapp1.png">
+                                                            <img alt="example1"
+                                                            src="images/examples/videostreamplayertestapp/videostreamplayertestapp1.png">
+                                                            </a>
+                                                    </div>
+                                                    <div class="item" style="left: 242px;">
+                                                        <a id="example2" target="_blank"
+                                                           href="images/examples/videostreamplayertestapp/videostreamplayertestapp2.png">
+                                                            <img alt="example2"
+                                                                 src="images/examples/videostreamplayertestapp/videostreamplayertestapp2.png">
+                                                        </a>
+                                                    </div>
+                                                    <div class="item" style="left: 484px;">
+                                                        <a id="example3" target="_blank"
+                                                           href="images/examples/videostreamplayertestapp/videostreamplayertestapp3.png">
+                                                            <img alt="example3"
+                                                            src="images/examples/videostreamplayertestapp/videostreamplayertestapp3.png">
+                                                        </a>
+                                                    </div>
+                                                    <div class="item" style="left: 726px;">
+                                                        <a id="example4" target="_blank"
+                                                           href="images/examples/videostreamplayertestapp/videostreamplayertestapp4.png">
+                                                            <img alt="example4"
+                                                            src="images/examples/videostreamplayertestapp/videostreamplayertestapp4.png">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pagination"><a href="#" class="prev disabled"></a> <a href="#"
+                                                                                                              class="next"></a>
+                                            </div>
+                                        </div>
+                                        <p> VideoStreamPlayerTestApp - Application for Android OS, which allows you to
+                                            watch online videos by providing the direct link to video files. API21+
+                                            (Android 5.0+). Development in progress. </p>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/justdo.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>JustDo</h3>
-                <p>Application for Android OS, which allows you to create and manage your tasks (with reminder)</p>
-                <a href="#work_13" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_13" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>JustDo</h3>
-                      <center>
-                    <!--                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/JustDo" target="_blank">GitHub</a> </p>-->
-                  </center>
-                      <img width="700" height="545" src="images/examples/justdo.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> JustDo - Application for Android OS, which allows you to create and manage your tasks. Also a reminder can be added. It can remind you about your task by 5 minutes, 30 minutes, 1 hour, 1 day before it needs to be done. Application is using Firebase Cloud Firestore as a database for tasks. It also uses Firebase Auth for allowing user to have personal list of TODO's. This is multiple-activities and multiple-fragments app. API21+ (Android 5.0+). Development in progress. Current app has no link to GitHub.</p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545" src="images/examples/justdo.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>JustDo</h3>
+                                <p>Application for Android OS, which allows you to create and manage your tasks (with
+                                    reminder)</p>
+                                <a href="#work_13" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_13" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>JustDo</h3>
+                                    <center>
+                                        <!--                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/JustDo" target="_blank">GitHub</a> </p>-->
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/justdo.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> JustDo - Application for Android OS, which allows you to create and manage your
+                                        tasks. Also a reminder can be added. It can remind you about your task by 5
+                                        minutes, 30 minutes, 1 hour, 1 day before it needs to be done. Application is
+                                        using Firebase Cloud Firestore as a database for tasks. It also uses Firebase
+                                        Auth for allowing user to have personal list of TODO's. This is
+                                        multiple-activities and multiple-fragments app. API21+ (Android 5.0+).
+                                        Development in progress. Current app has no link to GitHub.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/newstestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>NewsTestApp</h3>
-                <p>Application for Android OS, which allows you to read news from external server by REST API, now using Lenta.ru API</p>
-                <a href="#work_12" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_12" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>NewsTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/NewsTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/newstestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> NewsTestApp - Application for Android OS, which allows you to read news from external server by REST API. Using Lenta.ru API. Application is fully written on Kotlin. To download external images from URL using Ion library. For REST API using Gson, Retrofit. API21+ (Android 5.0+). </p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/newstestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>NewsTestApp</h3>
+                                <p>Application for Android OS, which allows you to read news from external server by
+                                    REST API, now using Lenta.ru API</p>
+                                <a href="#work_12" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_12" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>NewsTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/NewsTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/newstestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> NewsTestApp - Application for Android OS, which allows you to read news from
+                                        external server by REST API. Using Lenta.ru API. Application is fully written on
+                                        Kotlin. To download external images from URL using Ion library. For REST API
+                                        using Gson, Retrofit. API21+ (Android 5.0+). </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/rxnewstestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>RxNewsApp</h3>
-                <p>Application for Android OS, which allows you to read news from external server by REST API (using Retrofit now)</p>
-                <a href="#work_11" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_11" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>RxNewsTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/RxNewsTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/rxnewstestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> RxNewsTestApp - Application for Android OS, which allows you to read news from external server by REST API. This time by using Retrofit2, Gson and OkHTTP3. Navigation goes by BottomNavigation. It switches fragments. MainFragment contains a TabLayout with Pager. API21+ (Android 5.0+). </p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/rxnewstestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>RxNewsApp</h3>
+                                <p>Application for Android OS, which allows you to read news from external server by
+                                    REST API (using Retrofit now)</p>
+                                <a href="#work_11" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_11" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>RxNewsTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/RxNewsTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/rxnewstestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> RxNewsTestApp - Application for Android OS, which allows you to read news from
+                                        external server by REST API. This time by using Retrofit2, Gson and OkHTTP3.
+                                        Navigation goes by BottomNavigation. It switches fragments. MainFragment
+                                        contains a TabLayout with Pager. API21+ (Android 5.0+). </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/vkauthtestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>VKAuthTestApp</h3>
-                <p>Application for Android OS, which allows you to login in VK and see five of your first five friends (by alphabet)</p>
-                <a href="#work_10" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_10" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>VKAuthTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/VKAuthTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/vkauthtestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> VKAuthTestApp - Application for Android OS, which is using VK Android SDK, can authorize a VK user and get user's five top friends by alphabet. VKAccessToken is kept, so app will remember your auth, and so you shouldn't be authorizing each time you are entering. API21+ (Android 5.0+). </p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/vkauthtestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>VKAuthTestApp</h3>
+                                <p>Application for Android OS, which allows you to login in VK and see five of your
+                                    first five friends (by alphabet)</p>
+                                <a href="#work_10" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_10" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>VKAuthTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/VKAuthTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/vkauthtestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> VKAuthTestApp - Application for Android OS, which is using VK Android SDK, can
+                                        authorize a VK user and get user's five top friends by alphabet. VKAccessToken
+                                        is kept, so app will remember your auth, and so you shouldn't be authorizing
+                                        each time you are entering. API21+ (Android 5.0+). </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/accurateweathertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2019 </div>
-                <h3>AccurateWeatherTestApp</h3>
-                <p>Application for Android OS, which is a fork of weathertestapp application, but using Yandex.Weather API, not Yahoo</p>
-                <a href="#work_9" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_9" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>AccurateWeatherTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/AccurateWeatherTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/accurateweathertestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> AccurateWeatherTestApp - Application for Android OS, which receives by REST API all the information about weather forecasts for selected cities from Yandex.Weather. Fork of <a style="color: orange" href="https://github.com/LordDarthArt/WeatherTestApp" target="_blank">this</a> application with few improvements. API 21+ (Android 5.0+)</p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/accurateweathertestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2019</div>
+                                <h3>AccurateWeatherTestApp</h3>
+                                <p>Application for Android OS, which is a fork of weathertestapp application, but using
+                                    Yandex.Weather API, not Yahoo</p>
+                                <a href="#work_9" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_9" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>AccurateWeatherTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/AccurateWeatherTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/accurateweathertestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> AccurateWeatherTestApp - Application for Android OS, which receives by REST API
+                                        all the information about weather forecasts for selected cities from
+                                        Yandex.Weather. Fork of <a style="color: orange"
+                                                                   href="https://github.com/LordDarthArt/WeatherTestApp"
+                                                                   target="_blank">this</a> application with few
+                                        improvements. API 21+ (Android 5.0+)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/pushovertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>PushOverTestApp</h3>
-                <p>Application for Android OS, which sends notifications to defined user's devices</p>
-                <a href="#work_8" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_8" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>PushOverTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/PushOverTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/pushovertestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> PushOverTestApp - Application for Android OS, which uses PushOver API to send notifications to defined user's devices. If notification's text is a link, it will be added as a notification link. You can type your own notification's title and text, define target user's key, define target user's device, you can create a pending notification, you can even scan QR code and send result by notification. Target user needs the PushOver application to be installed on the device. API 21+ (Android 5.0+)</p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/pushovertestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>PushOverTestApp</h3>
+                                <p>Application for Android OS, which sends notifications to defined user's devices</p>
+                                <a href="#work_8" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_8" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>PushOverTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/PushOverTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/pushovertestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> PushOverTestApp - Application for Android OS, which uses PushOver API to send
+                                        notifications to defined user's devices. If notification's text is a link, it
+                                        will be added as a notification link. You can type your own notification's title
+                                        and text, define target user's key, define target user's device, you can create
+                                        a pending notification, you can even scan QR code and send result by
+                                        notification. Target user needs the PushOver application to be installed on the
+                                        device. API 21+ (Android 5.0+)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/yandexweathertestapp.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>YandexWeatherTestApp</h3>
-                <p>Application for Android OS, which is using Yandex Weather API to recieve forecasts from Yandex Servers</p>
-                <a href="#work_7" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_7" style="">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>YandexWeatherTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a style="color: orange" href="https://github.com/LordDarthArt/YandexWeatherTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/yandexweathertestapp.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> YandexWeatherTestApp - Application for Android OS, which uses Yandex Weather API to fetch forecasts data from Yandex Weather. To use this example program, you need a Yandex API Key. In IT security purposes Yandex API Key is stored in cloud NoSQL DB Cloud Firestore (by Google), separately for each authorized user. Authorization is working by Google account. For first-time authorization, you need to specify your Yandex API Key, otherwise software won't work. In UI, there's one (main) activity, which loads different fragments. </p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/yandexweathertestapp.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>YandexWeatherTestApp</h3>
+                                <p>Application for Android OS, which is using Yandex Weather API to recieve forecasts
+                                    from Yandex Servers</p>
+                                <a href="#work_7" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_7" style="">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>YandexWeatherTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a style="color: orange"
+                                                                     href="https://github.com/LordDarthArt/YandexWeatherTestApp"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/yandexweathertestapp.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> YandexWeatherTestApp - Application for Android OS, which uses Yandex Weather API
+                                        to fetch forecasts data from Yandex Weather. To use this example program, you
+                                        need a Yandex API Key. In IT security purposes Yandex API Key is stored in cloud
+                                        NoSQL DB Cloud Firestore (by Google), separately for each authorized user.
+                                        Authorization is working by Google account. For first-time authorization, you
+                                        need to specify your Yandex API Key, otherwise software won't work. In UI,
+                                        there's one (main) activity, which loads different fragments. </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"><img width="700" height="545" src="images/examples/testbackendappusingspring.png" class="attachment-large wp-post-image" alt="mu-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>TestBackendAppUsingSpring</h3>
-                <p>An RESTful Web Application with using Spring Boot, Spring MVC, Hibernate, Tomcat.</p>
-                <a href="#work_6" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_6">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>TestBackendAppUsingSpring</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/TestBackendAppUsingSpring" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/testbackendappusingspring.png" class="attachment-full wp-post-image" alt="mu-screen">
-                      <p> TestBackendAppUsingSpring - RESTful Backend Application with using H2 database. There is table MiniUniversity, creates in db, which stores info about students, their ages, their groups and teachers. With GET requests we able to: </p>
-                      <ul>
-                    <li>create group;</li>
-                    <li>get list of all the students;</li>
-                    <li>get student by ID;</li>
-                    <li>update group's teacher;</li>
-                    <li>get list of teacher's group;</li>
-                    <li>get list of group's students;</li>
-                    <li>get student's teacher;</li>
-                  </ul>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/testbackendappusingspring.png"
+                                                              class="attachment-large wp-post-image" alt="mu-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>TestBackendAppUsingSpring</h3>
+                                <p>An RESTful Web Application with using Spring Boot, Spring MVC, Hibernate, Tomcat.</p>
+                                <a href="#work_6" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_6">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>TestBackendAppUsingSpring</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a
+                                                href="https://github.com/LordDarthArt/TestBackendAppUsingSpring"
+                                                target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/testbackendappusingspring.png"
+                                         class="attachment-full wp-post-image" alt="mu-screen">
+                                    <p> TestBackendAppUsingSpring - RESTful Backend Application with using H2 database.
+                                        There is table MiniUniversity, creates in db, which stores info about students,
+                                        their ages, their groups and teachers. With GET requests we able to: </p>
+                                    <ul>
+                                        <li>create group;</li>
+                                        <li>get list of all the students;</li>
+                                        <li>get student by ID;</li>
+                                        <li>update group's teacher;</li>
+                                        <li>get list of teacher's group;</li>
+                                        <li>get list of group's students;</li>
+                                        <li>get student's teacher;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/examples/vkapitest.png" class="attachment-large wp-post-image" alt="gp-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort">2018</div>
-                <h3>VK API Test</h3>
-                <p>Application for Android OS, using VK API to work with VK by RESTful methods</p>
-                <a href="#work_5" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr mfp-hide" id="work_5">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>VK API Test</h3>
-                      <center>
-                    <p><strong>Link: </strong><a href="https://github.com/LordDarthArt/VK_API_Test" target="_blank">GitHub</a></p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/vkapitest.png" class="attachment-full wp-post-image" alt="gp-screen">
-                      <p> VK API Test - Application for Android OS, which is using VK API and was targeted to receive posts from user's wall in VK. Application requires user to define the target profile ID and posts count (100 or less). If there is no text in the post and there is only image, post won't be added to array. If user's wall protected by the privacy settings, error text will be displayed instead of post's list. </p>
-                      <ul>
-                  </ul>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/vkapitest.png"
+                                                              class="attachment-large wp-post-image" alt="gp-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort">2018</div>
+                                <h3>VK API Test</h3>
+                                <p>Application for Android OS, using VK API to work with VK by RESTful methods</p>
+                                <a href="#work_5" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr mfp-hide" id="work_5">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>VK API Test</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a href="https://github.com/LordDarthArt/VK_API_Test"
+                                                                     target="_blank">GitHub</a></p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/vkapitest.png"
+                                         class="attachment-full wp-post-image" alt="gp-screen">
+                                    <p> VK API Test - Application for Android OS, which is using VK API and was targeted
+                                        to receive posts from user's wall in VK. Application requires user to define the
+                                        target profile ID and posts count (100 or less). If there is no text in the post
+                                        and there is only image, post won't be added to array. If user's wall protected
+                                        by the privacy settings, error text will be displayed instead of post's
+                                        list. </p>
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/examples/weathertestapp.png" class="attachment-large wp-post-image" alt="ef-screen">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>WeatherTestApp</h3>
-                <p>Application for Android OS, which displays weather forecasts for selected cities. Data is provided by Yahoo.</p>
-                <a href="#work_4" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_4">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>WeatherTestApp</h3>
-                      <center>
-                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/WeatherTestApp" target="_blank">GitHub</a> </p>
-                  </center>
-                      <img width="700" height="545" src="images/examples/weathertestapp.png" class="attachment-full wp-post-image" alt="ef-screen">
-                      <p> WeatherTestApp - Application for Android OS, which receives by REST API all the information about weather forecasts for selected cities from Yahoo. </p>
-                      <ul>
-                  </ul>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/weathertestapp.png"
+                                                              class="attachment-large wp-post-image" alt="ef-screen">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>WeatherTestApp</h3>
+                                <p>Application for Android OS, which displays weather forecasts for selected cities.
+                                    Data is provided by Yahoo.</p>
+                                <a href="#work_4" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_4">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>WeatherTestApp</h3>
+                                    <center>
+                                        <p><strong>Link: </strong><a
+                                                href="https://github.com/LordDarthArt/WeatherTestApp" target="_blank">GitHub</a>
+                                        </p>
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/weathertestapp.png"
+                                         class="attachment-full wp-post-image" alt="ef-screen">
+                                    <p> WeatherTestApp - Application for Android OS, which receives by REST API all the
+                                        information about weather forecasts for selected cities from Yahoo. </p>
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/examples/mybuhg.png" class="attachment-large wp-post-image" alt="fishkarelia">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>MyBuhg</h3>
-                <p>Application for Android OS and client for mybuhg.ru</p>
-                <a href="#work_3" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_3">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>MyBuhg</h3>
-                      <center>
-                    <!--                    <p> <strong>Link: </strong><a href="http://github.com/LordDarthArt/MyBuhg" target="_blank">GitHub</a> </p>-->
-                  </center>
-                      <img width="700" height="545" src="images/examples/mybuhg.png" class="attachment-full wp-post-image" alt="fishkarelia">
-                      <p>MyBuhg - Application for Android OS devices with any screen resolution (with a screen size of 4.7’’ and bigger) - a client for https://mybuhg.ru. The application has organizations and users that belongs to the organizations. Authorization in the application is made by using a Google account registered on the device. At the first authorization in the application in the Cloud Firestore database, a document is created in the users collection containing the user's uID in the title, with the fields "name" and "verified". The name is taken from the Google account, the user’s verification and assignment to the organization are made by the DB administrator. If user is adding invoices, they are being registered in his special collection and in the collection of his organization. On the main page of the application, user invoices for the last 30 days are shown. In the “History” section, you can use filters to display invoices for a selected period of time, selected bank, selected counterparty, etc. You can set the option to invoices of the user or organization to which the user belongs. Adding a new invoice is possible by scanning checks and sending them to the administrator's mail (photos are converted to pdf to achieve a more compact file size), or by selecting ready-made images or pdf — files from the permanent memory of the device. It is also possible to save the available invoices in the permanent memory of the device to print them, or send by mail. The application involves NoSQL DB Firebase Cloud Firestore (with exposed access control rules), Google Cloud Messaging. Project delivered to lead project manager. Current app has no GitHub link.</p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545" src="images/examples/mybuhg.png"
+                                                              class="attachment-large wp-post-image" alt="fishkarelia">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>MyBuhg</h3>
+                                <p>Application for Android OS and client for mybuhg.ru</p>
+                                <a href="#work_3" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_3">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>MyBuhg</h3>
+                                    <center>
+                                        <!--                    <p> <strong>Link: </strong><a href="http://github.com/LordDarthArt/MyBuhg" target="_blank">GitHub</a> </p>-->
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/mybuhg.png"
+                                         class="attachment-full wp-post-image" alt="fishkarelia">
+                                    <p>MyBuhg - Application for Android OS devices with any screen resolution (with a
+                                        screen size of 4.7’’ and bigger) - a client for https://mybuhg.ru. The
+                                        application has organizations and users that belongs to the organizations.
+                                        Authorization in the application is made by using a Google account registered on
+                                        the device. At the first authorization in the application in the Cloud Firestore
+                                        database, a document is created in the users collection containing the user's
+                                        uID in the title, with the fields "name" and "verified". The name is taken from
+                                        the Google account, the user’s verification and assignment to the organization
+                                        are made by the DB administrator. If user is adding invoices, they are being
+                                        registered in his special collection and in the collection of his organization.
+                                        On the main page of the application, user invoices for the last 30 days are
+                                        shown. In the “History” section, you can use filters to display invoices for a
+                                        selected period of time, selected bank, selected counterparty, etc. You can set
+                                        the option to invoices of the user or organization to which the user belongs.
+                                        Adding a new invoice is possible by scanning checks and sending them to the
+                                        administrator's mail (photos are converted to pdf to achieve a more compact file
+                                        size), or by selecting ready-made images or pdf — files from the permanent
+                                        memory of the device. It is also possible to save the available invoices in the
+                                        permanent memory of the device to print them, or send by mail. The application
+                                        involves NoSQL DB Firebase Cloud Firestore (with exposed access control rules),
+                                        Google Cloud Messaging. Project delivered to lead project manager. Current app
+                                        has no GitHub link.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/examples/driverstasks.png" class="attachment-large wp-post-image" alt="ribakova">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2018 </div>
-                <h3>DriversTasks</h3>
-                <p>Application for Android OS, which automates the work of the logistics department</p>
-                <a href="#work_2" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_2">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>DriversTasks</h3>
-                      <center>
-                    <!--                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/Drivers_Tasks" target="_blank">GitHub</a> </p>-->
-                  </center>
-                      <img width="700" height="545" src="images/examples/driverstasks.png" class="attachment-full wp-post-image" alt="ribakova">
-                      <p>DriversTasks - Application for Android OS devices with any resolution for automation of enterprise logistics department. Application is intended for use by enterprise’s drivers. Driver is authorizing in the app and getting a list of tasks for today. By choosing the task, driver is able to start the task completion, or to postpone it. This data is being sent to the SQL server (1C Enterprise 8.3) and after that displays to the dispatcher. For quality control purposes, the coordinates of an authorized driver are sent to the server at intervals of 15 minutes. The driver using the application can view orders for the selected day. Tasks for the selected day are sorted by status: New, Running, Completed, Postponed. When a new task is added for an authorized user, user gets a notification (Google Cloud Message), which is sent by the server by generating a REST request. The application involves: a local SQLite database, the main server of the enterprise and Firebase, connected to the Google account of the enterprise. Operations on receiving and updating information in the database using the application are taking place in AsyncTask, where GET requests and subsequent parsing of JSON server response synchronizing with the local SQLite database. Authorization in the application occurs by adding an authorization value to the server’s request in the header. Software is implemented in use. Current app has no GitHub link.</p>
-                      <ul>
-                  </ul>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/driverstasks.png"
+                                                              class="attachment-large wp-post-image" alt="ribakova">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2018</div>
+                                <h3>DriversTasks</h3>
+                                <p>Application for Android OS, which automates the work of the logistics department</p>
+                                <a href="#work_2" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_2">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>DriversTasks</h3>
+                                    <center>
+                                        <!--                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/Drivers_Tasks" target="_blank">GitHub</a> </p>-->
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/driverstasks.png"
+                                         class="attachment-full wp-post-image" alt="ribakova">
+                                    <p>DriversTasks - Application for Android OS devices with any resolution for
+                                        automation of enterprise logistics department. Application is intended for use
+                                        by enterprise’s drivers. Driver is authorizing in the app and getting a list of
+                                        tasks for today. By choosing the task, driver is able to start the task
+                                        completion, or to postpone it. This data is being sent to the SQL server (1C
+                                        Enterprise 8.3) and after that displays to the dispatcher. For quality control
+                                        purposes, the coordinates of an authorized driver are sent to the server at
+                                        intervals of 15 minutes. The driver using the application can view orders for
+                                        the selected day. Tasks for the selected day are sorted by status: New, Running,
+                                        Completed, Postponed. When a new task is added for an authorized user, user gets
+                                        a notification (Google Cloud Message), which is sent by the server by generating
+                                        a REST request. The application involves: a local SQLite database, the main
+                                        server of the enterprise and Firebase, connected to the Google account of the
+                                        enterprise. Operations on receiving and updating information in the database
+                                        using the application are taking place in AsyncTask, where GET requests and
+                                        subsequent parsing of JSON server response synchronizing with the local SQLite
+                                        database. Authorization in the application occurs by adding an authorization
+                                        value to the server’s request in the header. Software is implemented in use.
+                                        Current app has no GitHub link.</p>
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/examples/businessschedule.png" class="attachment-large wp-post-image" alt="preview">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2017 </div>
-                <h3>BusinessSchedule</h3>
-                <p>Application for Android OS, which displays enterprise's events for certain rom</p>
-                <a href="#work_1" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="work_1">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>BusinessSchedule</h3>
-                      <center>
-                    <!--                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/Bussiness_Schedule" target="_blank">GitHub</a> </p>-->
-                  </center>
-                      <img width="700" height="545" src="images/examples/businessschedule.png" class="attachment-full wp-post-image" alt="preview">
-                      <p>Pilot project: BusinessSchedule -Application, which is showing on Android OS tablet’s screen with resolution of 1024х768 events list in the meeting room, planned on: next few hours, current day, current week (different screen parts), for the enterprices. Events are reading from Firebase Realtime Database. A login+password pair is used for authorization. It is registered in Firebase project. Project delivered to lead project manager. Current app has no GitHub link.</p>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1 category-2"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545"
+                                                              src="images/examples/businessschedule.png"
+                                                              class="attachment-large wp-post-image" alt="preview">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2017</div>
+                                <h3>BusinessSchedule</h3>
+                                <p>Application for Android OS, which displays enterprise's events for certain rom</p>
+                                <a href="#work_1" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="work_1">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>BusinessSchedule</h3>
+                                    <center>
+                                        <!--                    <p> <strong>Link: </strong><a href="https://github.com/LordDarthArt/Bussiness_Schedule" target="_blank">GitHub</a> </p>-->
+                                    </center>
+                                    <img width="700" height="545" src="images/examples/businessschedule.png"
+                                         class="attachment-full wp-post-image" alt="preview">
+                                    <p>Pilot project: BusinessSchedule -Application, which is showing on Android OS
+                                        tablet’s screen with resolution of 1024х768 events list in the meeting room,
+                                        planned on: next few hours, current day, current week (different screen parts),
+                                        for the enterprices. Events are reading from Firebase Realtime Database. A
+                                        login+password pair is used for authorization. It is registered in Firebase
+                                        project. Project delivered to lead project manager. Current app has no GitHub
+                                        link.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
                 </div>
-          </div>
             </div>
-      </div>
         </div>
-  </div>
-    </section>
+    </div>
+</section>
 <section id="goals" class="s_portfolio bg_dark" data-image-src="images/bg.jpg" data-z-index="1">
-      <div data-aos="fade-down" data-aos-easing="linear">
-    <h2 style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" id="goalsTitle">Other information</h2>
-    <div class="s_descr_wrap">
-          <div class="s_descr">Goals, education, etc.</div>
+    <div data-aos="fade-down" data-aos-easing="linear">
+        <h2 style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" id="goalsTitle">Other information</h2>
+        <div class="s_descr_wrap">
+            <div class="s_descr">Goals, education, etc.</div>
         </div>
-  </div>
-      <div class="section_content">
-    <div class="container">
-          <div class="row">
-        <div id="portfolio_grid2">
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/tcmc.jpg" class="attachment-large wp-post-image" alt="tkan3d">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2013 - 2018 </div>
-                <h3>Technical College Of Management And Commerce</h3>
-                <p>Programming in computer systems</p>
-                <a href="http://www.tcmc.spb.ru/" target="_blank">Check out</a> </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/worldskills.jpg" class="attachment-large wp-post-image" alt="kuhnya">
-                  <div class="port_item_cont">
-                <div class="yearPort"> 2017 </div>
-                <h3>WorldSkills Russia</h3>
-                <p>Taking part as a programmer</p>
-                <a href="https://worldskills.ru/" target="_blank">Check Out</a> </div>
-                </div>
-          </div>
-              <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1" style="display: inline-block;">
-            <div class="port_item_container"> <img width="700" height="545" src="images/sololearn.jpg" class="attachment-large wp-post-image" alt="ocenka">
-                  <div class="port_item_cont">
-                <h3>SoloLearn: Additional Education</h3>
-                <p>Studied bases of some languages here</p>
-                <a href="#sololearn" class="popup_content seework">Check out</a> </div>
-                </div>
-            <div class="hidden">
-                  <div class="podrt_descr" id="sololearn">
-                <div class="modal-box-content">
-                      <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-                      <h3>Sololearn</h3>
-                      <img width="700" height="545" src="images/sololearn.jpg" class="attachment-full wp-post-image" alt="ocenka">
-                      <p>International platform that allows novice or even experienced programmer to study something new and discuss it (or anything else) with other users<br>
-                    <strong>Certificates: </strong></p>
-                      <ul>
-                    <li>HTML Fundamentals: <a href="https://www.sololearn.com/Certificate/1014-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>CSS Fundamentals: <a href="https://www.sololearn.com/Certificate/1023-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>JavaScript Tutoral: <a href="https://www.sololearn.com/Certificate/1024-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>PHP Tutorial: <a href="https://www.sololearn.com/Certificate/1059-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>jQuery Tutorial: <a href="https://www.sololearn.com/Certificate/1082-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>Java Tutorial: <a href="https://www.sololearn.com/Certificate/1068-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>C++ Tutorial: <a href="https://www.sololearn.com/Certificate/1051-4090103/pdf/" target="_blank">Certificate</a></li>
-                    <li>Swift 4 Fundamentals: <a href="https://www.sololearn.com/Certificate/1075-4090103/pdf/" target="_blank">Certificate</a></li>
-                  </ul>
+    </div>
+    <div class="section_content">
+        <div class="container">
+            <div class="row">
+                <div id="portfolio_grid2">
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545" src="images/tcmc.jpg"
+                                                              class="attachment-large wp-post-image" alt="tkan3d">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2013 - 2018</div>
+                                <h3>Technical College Of Management And Commerce</h3>
+                                <p>Programming in computer systems</p>
+                                <a href="http://www.tcmc.spb.ru/" target="_blank">Check out</a></div>
+                        </div>
                     </div>
-              </div>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545" src="images/worldskills.jpg"
+                                                              class="attachment-large wp-post-image" alt="kuhnya">
+                            <div class="port_item_cont">
+                                <div class="yearPort"> 2017</div>
+                                <h3>WorldSkills Russia</h3>
+                                <p>Taking part as a programmer</p>
+                                <a href="https://worldskills.ru/" target="_blank">Check Out</a></div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"
+                         style="display: inline-block;">
+                        <div class="port_item_container"><img width="700" height="545" src="images/sololearn.jpg"
+                                                              class="attachment-large wp-post-image" alt="ocenka">
+                            <div class="port_item_cont">
+                                <h3>SoloLearn: Additional Education</h3>
+                                <p>Studied bases of some languages here</p>
+                                <a href="#sololearn" class="popup_content seework">Check out</a></div>
+                        </div>
+                        <div class="hidden">
+                            <div class="podrt_descr" id="sololearn">
+                                <div class="modal-box-content">
+                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+                                    <h3>Sololearn</h3>
+                                    <img width="700" height="545" src="images/sololearn.jpg"
+                                         class="attachment-full wp-post-image" alt="ocenka">
+                                    <p>International platform that allows novice or even experienced programmer to study
+                                        something new and discuss it (or anything else) with other users<br>
+                                        <strong>Certificates: </strong></p>
+                                    <ul>
+                                        <li>HTML Fundamentals: <a
+                                                href="https://www.sololearn.com/Certificate/1014-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>CSS Fundamentals: <a
+                                                href="https://www.sololearn.com/Certificate/1023-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>JavaScript Tutoral: <a
+                                                href="https://www.sololearn.com/Certificate/1024-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>PHP Tutorial: <a
+                                                href="https://www.sololearn.com/Certificate/1059-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>jQuery Tutorial: <a
+                                                href="https://www.sololearn.com/Certificate/1082-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>Java Tutorial: <a
+                                                href="https://www.sololearn.com/Certificate/1068-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>C++ Tutorial: <a
+                                                href="https://www.sololearn.com/Certificate/1051-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                        <li>Swift 4 Fundamentals: <a
+                                                href="https://www.sololearn.com/Certificate/1075-4090103/pdf/"
+                                                target="_blank">Certificate</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
                 </div>
-          </div>
-              <div class="clr"></div>
             </div>
-      </div>
         </div>
-  </div>
-    </section>
+    </div>
+</section>
+<section id="biography" class="s_portfolio bg_dark">
+<!--    <div data-aos="fade-down" data-aos-easing="linear">-->
+<!--        <h2 style="color: rgb(255, 255, 255); &#45;&#45;darkreader-inline-color:#ffffff;" id="goalsTitle">Other information</h2>-->
+<!--        <div class="s_descr_wrap">-->
+<!--            <div class="s_descr">Goals, education, etc.</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="section_content">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div id="portfolio_grid2">-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/tcmc.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="tkan3d">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <div class="yearPort"> 2013 - 2018</div>-->
+<!--                                <h3>Technical College Of Management And Commerce</h3>-->
+<!--                                <p>Programming in computer systems</p>-->
+<!--                                <a href="http://www.tcmc.spb.ru/" target="_blank">Check out</a></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/worldskills.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="kuhnya">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <div class="yearPort"> 2017</div>-->
+<!--                                <h3>WorldSkills Russia</h3>-->
+<!--                                <p>Taking part as a programmer</p>-->
+<!--                                <a href="https://worldskills.ru/" target="_blank">Check Out</a></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/sololearn.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="ocenka">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <h3>SoloLearn: Additional Education</h3>-->
+<!--                                <p>Studied bases of some languages here</p>-->
+<!--                                <a href="#sololearn" class="popup_content seework">Check out</a></div>-->
+<!--                        </div>-->
+<!--                        <div class="hidden">-->
+<!--                            <div class="podrt_descr" id="sololearn">-->
+<!--                                <div class="modal-box-content">-->
+<!--                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>-->
+<!--                                    <h3>Sololearn</h3>-->
+<!--                                    <img width="700" height="545" src="images/sololearn.jpg"-->
+<!--                                         class="attachment-full wp-post-image" alt="ocenka">-->
+<!--                                    <p>International platform that allows novice or even experienced programmer to study-->
+<!--                                        something new and discuss it (or anything else) with other users<br>-->
+<!--                                        <strong>Certificates: </strong></p>-->
+<!--                                    <ul>-->
+<!--                                        <li>HTML Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1014-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>CSS Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1023-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>JavaScript Tutoral: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1024-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>PHP Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1059-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>jQuery Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1082-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>Java Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1068-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>C++ Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1051-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>Swift 4 Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1075-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="clr"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</section>
+<section id="communication" class="s_portfolio bg_dark" data-image-src="images/bg.jpg" data-z-index="1">
+<!--    <div data-aos="fade-down" data-aos-easing="linear">-->
+<!--        <h2 style="color: rgb(255, 255, 255); &#45;&#45;darkreader-inline-color:#ffffff;" id="goalsTitle">Other information</h2>-->
+<!--        <div class="s_descr_wrap">-->
+<!--            <div class="s_descr">Goals, education, etc.</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="section_content">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div id="portfolio_grid2">-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/tcmc.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="tkan3d">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <div class="yearPort"> 2013 - 2018</div>-->
+<!--                                <h3>Technical College Of Management And Commerce</h3>-->
+<!--                                <p>Programming in computer systems</p>-->
+<!--                                <a href="http://www.tcmc.spb.ru/" target="_blank">Check out</a></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/worldskills.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="kuhnya">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <div class="yearPort"> 2017</div>-->
+<!--                                <h3>WorldSkills Russia</h3>-->
+<!--                                <p>Taking part as a programmer</p>-->
+<!--                                <a href="https://worldskills.ru/" target="_blank">Check Out</a></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="mix col-md-4 col-sm-6 col-xs-12 portfolio_item category-1"-->
+<!--                         style="display: inline-block;">-->
+<!--                        <div class="port_item_container"><img width="700" height="545" src="images/sololearn.jpg"-->
+<!--                                                              class="attachment-large wp-post-image" alt="ocenka">-->
+<!--                            <div class="port_item_cont">-->
+<!--                                <h3>SoloLearn: Additional Education</h3>-->
+<!--                                <p>Studied bases of some languages here</p>-->
+<!--                                <a href="#sololearn" class="popup_content seework">Check out</a></div>-->
+<!--                        </div>-->
+<!--                        <div class="hidden">-->
+<!--                            <div class="podrt_descr" id="sololearn">-->
+<!--                                <div class="modal-box-content">-->
+<!--                                    <button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>-->
+<!--                                    <h3>Sololearn</h3>-->
+<!--                                    <img width="700" height="545" src="images/sololearn.jpg"-->
+<!--                                         class="attachment-full wp-post-image" alt="ocenka">-->
+<!--                                    <p>International platform that allows novice or even experienced programmer to study-->
+<!--                                        something new and discuss it (or anything else) with other users<br>-->
+<!--                                        <strong>Certificates: </strong></p>-->
+<!--                                    <ul>-->
+<!--                                        <li>HTML Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1014-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>CSS Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1023-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>JavaScript Tutoral: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1024-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>PHP Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1059-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>jQuery Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1082-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>Java Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1068-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>C++ Tutorial: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1051-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                        <li>Swift 4 Fundamentals: <a-->
+<!--                                                href="https://www.sololearn.com/Certificate/1075-4090103/pdf/"-->
+<!--                                                target="_blank">Certificate</a></li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="clr"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</section>
 <section id="contacts" class="s_contacts bg_dark">
-      <div class="">
-    <h2 id="contactsTitle">Contacts</h2>
-    <div class="s_descr_wrap">
-          <div class="s_descr">How to contact me</div>
+    <div class="">
+        <h2 id="contactsTitle">Contacts</h2>
+        <div class="s_descr_wrap">
+            <div class="s_descr">How to contact me</div>
         </div>
-  </div>
-      <div class="section_content">
-    <div class="container">
-          <div class="row">
-        <div class="col-md-6 col-sm-6">
-              <div class="contact_box">
-            <div><img src="images/icons/waypoint.png" height="32px" width="32px"></div>
-            <br>
-            <h3>Address</h3>
-            <p><a href="https://maps.app.goo.gl/i/fMm-M" target="_blank">Russia, Saint-Petersburg</a></p>
-          </div>
-              <div class="contact_box">
-            <div><img src="images/icons/email.png" height="32px" width="32px"></div>
-            <br>
-            <h3>Email:</h3>
-            <p><a href="mailto:lorddarthart@gmail.com">admin@lorddarthart.tk</a></p>
-          </div>
-              <div class="contact_box">
-            <div><img src="images/icons/headhunter.png" height="32px" width="32px"></div>
-            <br>
-            <h3>HeadHunter:</h3>
-            <p><a href="https://spb.hh.ru/resume/ef7091d2ff03affc190039ed1f6942386d4139" target="_blank">Android (Java, Kotlin) Developer</a></p>
-          </div>
+    </div>
+    <div class="section_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="contact_box">
+                        <div><img src="images/icons/waypoint.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>Address</h3>
+                        <p><a href="https://maps.app.goo.gl/i/fMm-M" target="_blank">Russia, Saint-Petersburg</a></p>
+                    </div>
+                    <div class="contact_box">
+                        <div><img src="images/icons/email.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>Email:</h3>
+                        <p><a href="mailto:lorddarthart@gmail.com">admin@lorddarthart.tk</a></p>
+                    </div>
+                    <div class="contact_box">
+                        <div><img src="images/icons/headhunter.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>HeadHunter:</h3>
+                        <p><a href="https://spb.hh.ru/resume/ef7091d2ff03affc190039ed1f6942386d4139" target="_blank">Android
+                            (Java, Kotlin) Developer</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6" style="margin-bottom:30px;">
+                    <div class="contact_box">
+                        <div><img src="images/icons/site.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>Site:</h3>
+                        <p><a href="https://lorddarthart.tk" target="_blank">lorddarthart.tk</a></p>
+                    </div>
+                    <div class="contact_box">
+                        <div><img src="images/icons/skype.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>Skype:</h3>
+                        <p><a href="skype:lorddarthart">lorddarthart</a></p>
+                    </div>
+                    <div class="contact_box">
+                        <div><img src="images/icons/linkedin.png" height="32px" width="32px"></div>
+                        <br>
+                        <h3>LinkedIn:</h3>
+                        <p><a href="https://www.linkedin.com/in/artem-tarasov-27628b126/" target="_blank">Artem
+                            Tarasov</a></p>
+                    </div>
+                </div>
             </div>
-        <div class="col-md-6 col-sm-6" style="margin-bottom:30px;">
-              <div class="contact_box">
-            <div><img src="images/icons/site.png" height="32px" width="32px"></div>
-            <br>
-            <h3>Site:</h3>
-            <p><a href="https://lorddarthart.tk" target="_blank">lorddarthart.tk</a></p>
-          </div>
-              <div class="contact_box">
-            <div><img src="images/icons/skype.png" height="32px" width="32px"></div>
-            <br>
-            <h3>Skype:</h3>
-            <p><a href="skype:lorddarthart">lorddarthart</a></p>
-          </div>
-              <div class="contact_box">
-            <div><img src="images/icons/linkedin.png" height="32px" width="32px"></div>
-            <br>
-            <h3>LinkedIn:</h3>
-            <p><a href="https://www.linkedin.com/in/artem-tarasov-27628b126/" target="_blank">Artem Tarasov</a></p>
-          </div>
-            </div>
-      </div>
         </div>
-  </div>
-    </section>
+    </div>
+</section>
 <footer class="main_footer bg_dark">
-      <div class="container">
-    <div class="row">
-          <div class="col-md-12" style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" data-darkreader-inline-color="">2019, Tarasov Artem Maksimovich, Android Developer.</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;"
+                 data-darkreader-inline-color="">2019, Tarasov Artem Maksimovich, Android Developer.
+            </div>
         </div>
-  </div>
-    </footer>
+    </div>
+</footer>
 <div class="hidden"></div>
-		  <div id="fancybox-tmp"></div>
-		  <div id="fancybox-loading"><div></div></div>
-		  <div id="fancybox-overlay"></div>
-		  <div id="fancybox-wrap">
-			  <div id="fancybox-outer">
-				  <div class="fancybox-bg" id="fancybox-bg-n"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-ne"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-e"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-se"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-s"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-sw"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-w"></div>
-				  <div class="fancybox-bg" id="fancybox-bg-nw"></div>
-				  <div id="fancybox-content"></div>
-				  <a id="fancybox-close"></a>
-				  <div id="fancybox-title"></div>
-				  <a href="javascript:;" id="fancybox-left">
-					  <span class="fancy-ico" id="fancybox-left-ico"></span>
-				  </a>
-				  <a href="javascript:;" id="fancybox-right">
-					  <span class="fancy-ico" id="fancybox-right-ico">
-					  </span>
-				  </a>
-			  </div>
-		  </div>
-<!--		  <div id="fancybox-content" style="border-width: 10px; width: 609px; height: 398px;"><img id="fancybox-img" src="http://farm6.staticflickr.com/5614/15602332537_bae1aaccd8_b.jpg" alt=""></div>-->
-<script src="js/parallax.min.js"></script> 
-<script src="js/common.js"></script> 
-<script src="js/jQuery.magnific-popup.min.js"></script> 
-<script src="js/mixitup.min.js"></script> 
-<script src="js/PageScroll2id.min.js"></script> 
-<script src="js/jquery.waypoints.min.js"></script> 
-<script src="js/waypoint.min.js"></script> 
-<script src="js/animate-css.js"></script> 
+<script src="js/parallax.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jQuery.magnific-popup.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/PageScroll2id.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/waypoint.min.js"></script>
+<script src="js/animate-css.js"></script>
 <script src="js/jqBootstrapValidation.js"></script>
 </body>
 </html>
