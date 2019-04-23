@@ -644,6 +644,50 @@ svg path {
 #goals.bg_dark .contact_box a {
 	color: #072004;
 }
+
+#communication {
+	background: url(images/bg.jpg) left top repeat;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #072004;
+}
+#communication h2 {
+	color:#ffffff;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000,  1px -1px 0 #000,  -1px 1px 0 #000,  1px 1px 0 #000;
+}
+#communication div {
+	color:#ffffff;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000,  1px -1px 0 #000,  -1px 1px 0 #000,  1px 1px 0 #000;
+}
+#communication .top_wrapper {
+	top: 50px;
+}
+#communication.bg_dark .s_descr:after {
+	background-color: #033452;
+	background-color: #072004;
+}
+#communication.bg_dark .s_descr_wrap .s_descr {
+	margin-bottom: 110px;
+}
+#communication.bg_dark div.port_item_container {
+	border: 2px solid #072004;
+}
+#communication.bg_dark .authordetails {
+	margin-top: 34px;
+	margin-bottom: 30px;
+}
+#communication.bg_dark .yearPort {
+	color: #fff;
+}
+#communication.bg_dark .contact_box p {
+	color: #ffffff;
+}
+#communication.bg_dark .contact_box a {
+	color: #072004;
+}
 #letzdrink {
 	color:#ffffff;
 }
