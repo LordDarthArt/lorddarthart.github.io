@@ -645,10 +645,15 @@ svg path {
 	color: #072004;
 }
 
+#about_me p {
+	text-align: justify;
+}
+
 #communication {
-	background: url(images/bg.jpg) left top repeat;
+	background: url(images/questions.jpg) left top repeat;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	text-align: justify;
 	background-size: cover;
 	color: #072004;
 }
