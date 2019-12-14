@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f06b0a0f-2326-4a55-8bf2-1c05f0edbf80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,6 +74,7 @@
       <workItem from="1566599395861" duration="42000" />
       <workItem from="1566599868273" duration="39000" />
       <workItem from="1566599984746" duration="224000" />
+      <workItem from="1576367357226" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Some refactoring">
       <created>1556366671884</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566593215781</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removing CNAME; it's not working anymore :-(">
+      <created>1576367453054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576367453054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="Corrections" />
     <MESSAGE value="Removed communication form 'cause it's not working&#10;Removed biography 'cause it's useless&#10;Haven't updated any of my projects for a while 'cause i'm working and have no time for that" />
     <MESSAGE value="Formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatting" />
+    <MESSAGE value="Removing CNAME; it's not working anymore :-(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing CNAME; it's not working anymore :-(" />
   </component>
 </project>
