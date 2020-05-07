@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f06b0a0f-2326-4a55-8bf2-1c05f0edbf80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PqDPWahuHhokPskH6BE3SlwfsL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -31,18 +34,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LordDarthArt\Documents\Работа\LordDarthArt\lorddarthart.github.io\stylesheets" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lorddarthart.github.io/index.html" useBuiltInWebServerPort="true">
@@ -76,6 +67,7 @@
       <workItem from="1566599868273" duration="39000" />
       <workItem from="1566599984746" duration="224000" />
       <workItem from="1576367357226" duration="293000" />
+      <workItem from="1588888192265" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="Some refactoring">
       <created>1556366671884</created>
@@ -112,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576367453054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Returning CNAME, hope this'll work">
+      <created>1588888279979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588888279979</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,12 +151,21 @@
     <MESSAGE value="Removed communication form 'cause it's not working&#10;Removed biography 'cause it's useless&#10;Haven't updated any of my projects for a while 'cause i'm working and have no time for that" />
     <MESSAGE value="Formatting" />
     <MESSAGE value="Removing CNAME; it's not working anymore :-(" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing CNAME; it's not working anymore :-(" />
+    <MESSAGE value="Returning CNAME, hope this'll work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returning CNAME, hope this'll work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588888228482">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588888228482" />
+    <state x="287" y="52" key="CommitChangelistDialog2" timestamp="1588888279844">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="287" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588888279844" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588888282289">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588888282289" />
   </component>
 </project>
