@@ -177,7 +177,6 @@ section .personal_header {
 	float: right;
 	z-index: 10;
 	position: absolute;
-	margin-left: 88%;
 }
 .logo_container img {
 	width: 104px;
