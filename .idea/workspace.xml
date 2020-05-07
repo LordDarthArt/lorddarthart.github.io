@@ -22,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1PqDPWahuHhokPskH6BE3SlwfsL" />
   <component name="ProjectLevelVcsManager">
@@ -238,5 +239,23 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588890267606" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1588894508091">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1588894508091" />
+    <state x="437" y="173" key="VCS.ChangeListViewerDialog" timestamp="1588894502251">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="173" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1588894502251" />
+    <state x="570" y="373" key="VCS.ChangelistChooser" timestamp="1588894475078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="570" y="373" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1588894475078" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588894508081">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1588894508081" />
   </component>
 </project>
