@@ -21,6 +21,7 @@
   </component>
   <component name="ProjectId" id="1PqDPWahuHhokPskH6BE3SlwfsL" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -152,5 +153,11 @@
     <MESSAGE value="Formatting" />
     <MESSAGE value="Removing CNAME; it's not working anymore :-(" />
     <option name="LAST_COMMIT_MESSAGE" value="Removing CNAME; it's not working anymore :-(" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588888228482">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="443" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588888228482" />
   </component>
 </project>
